@@ -12,23 +12,23 @@
     <header>
       <!--Навигация-->
       <nav>
-        <a href="./index.html"> Web Studio</a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <a href="./index.html" class="logo list"> <span class="logo-web list">Web</span> Studio</a>
+        <ul class="nav-items list">
+          <li><a href="./index.html" class="nav-link list current">Студия</a></li>
+          <li><a href="./portfolio.html" class="nav-link list">Портфолио</a></li>
+          <li><a href="" class="nav-link list">Контакты</a></li>
         </ul>
       </nav>
       <!--Email & Phone-->
-      <ul>
+      <ul class="contact-us list">
         <li>
-          <a href="mailto:info@devstudio.com">
+          <a href="mailto:info@devstudio.com" class="contact-us-email list">
             <img src="./images/envelope.svg" alt="иконка конверта">
             info@devstudio.com
           </a>
         </li>
         <li>
-          <a href="tel:+380961111111">
+          <a href="tel:+380961111111" class="contact-us-phone list">
             <img src="./images/phone.svg" alt="иконка телефона">
             +380961111111
           </a>
@@ -38,44 +38,44 @@
     <!--Уникальный Контент страницы-->
     <main>
       <!--Hero Section-->
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="btn-primary">Заказать услугу</button>
       </section>
 
       <!--Наши Преимущества-->
-      <section>
+      <section class="features">
         <!--<h2>Наши преимущества</h2>-->
-        <ul>
+        <ul class="features-list list">
           <li>
-            <img src="./images/advantages/antenna.svg" alt="Антенна" width="70" height="70">
+            <div class="features-list-wrap"><img src="./images/advantages/antenna.svg" alt="Антенна" width="70" height="70"></div>
             <h3>Внимание к деталям</h3>
-            <p>
+            <p class="features-list-description">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <img src="./images/advantages/clock.svg" alt="Часы" width="70" height="70">
+            <div class="features-list-wrap"><img src="./images/advantages/clock.svg" alt="Часы" width="70" height="70"></div>
             <h3>Пунктуальность</h3>
-            <p>
+            <p class="features-list-description">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции. Задача организации, в особенности же рамки и
               место обучения кадров влечет за собой.
             </p>
           </li>
           <li>
-            <img src="./images/advantages/diagram.svg" alt="Ноутбук" width="70" height="70">
+            <div class="features-list-wrap"><img src="./images/advantages/diagram.svg" alt="Ноутбук" width="70" height="70"></div>
             <h3>Планирование</h3>
-            <p>
+            <p class="features-list-description">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <img src="./images/advantages/astronaut.svg" alt="Астронавт" width="70" height="70">
+            <div class="features-list-wrap"><img src="./images/advantages/astronaut.svg" alt="Астронавт" width="70" height="70"></div>
             <h3>Современные технологии</h3>
-            <p>
+            <p class="features-list-description">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -84,114 +84,114 @@
       </section>
 
       <!--Чем мы занимаемся-->
-      <section>
+      <section class="fields">
         <h2>Чем мы занимаемся</h2>
-        <ul>
+        <ul class="fields-list list">
           <li>
             <img src="./images/what-we-do/laptop.jpg" alt="Ноутбук" width="370" height="294">
-            <h3>Десктопные приложения</h3>
+            <div class="fields-list-item"><h3>Десктопные приложения</h3></div>
           </li>
           <li>
             <img src="./images/what-we-do/smartphone.jpg" alt="Мобильный телефон" width="370" height="294">
-            <h3>Мобильные приложения</h3>
+            <div class="fields-list-item"><h3>Мобильные приложения</h3></div>
           </li>
           <li>
             <img src="./images/what-we-do/computer-monitor.jpg" alt="Монитор компьютера" width="370" height="294" >
-            <h3>Дизайнерские решения</h3>
+            <div class="fields-list-item"><h3>Дизайнерские решения</h3></div>
           </li>
         </ul>
       </section>
 
       <!--Наша команда-->
-      <section>
+      <section class="our-team">
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="our-team-list list">
           <!--Николай Кучеренко-->
-          <li>
+          <li class="our-team-list-item">
             <img src="./images/our-team-photos/nikolay-kucherenko.jpg" alt="фото Николая Кучеренко" width="270" height="260">
             <h3>Николай Кучеренко</h3>
-            <p lang="en">Product Designer</p>
-              <ul>
-                <li>
-                  <a href="" aria-label="Ссылка на Instagram" target="blank">Instagram</a>
+            <p lang="en" class="position">Product Designer</p>
+              <ul class="social list">
+                <li class="social-item">
+                  <a href="" class="social-item-link list" aria-label="Ссылка на Instagram" target="blank">Instagram</a>
                 </li>
-                <li>
-                  <a href="" aria-label="Ссылка на Twitter" target="blank">Twitter</a>
+                <li class="social-item">
+                  <a href="" class="social-item-link list" aria-label="Ссылка на Twitter" target="blank">Twitter</a>
                 </li>
-                <li>
-                  <a href="" aria-label="Ссылка на Facebook" target="blank">Facebook</a>
+                <li class="social-item">
+                  <a href="" class="social-item-link list" aria-label="Ссылка на Facebook" target="blank">Facebook</a>
                 </li>
-                <li>
-                  <a href="" aria-label="Ссылка на LinkedIn" target="blank">LinkedIn</a>
+                <li class="social-item">
+                  <a href="" class="social-item-link list" aria-label="Ссылка на LinkedIn" target="blank">LinkedIn</a>
                 </li>
               </ul>
           </li>
           <!--Ольга Иванова-->
-          <li>
+          <li class="our-team-list-item">
             <img
               src="./images/our-team-photos/olga-ivanova.jpg"
               alt="фото Ольги Ивановой"
               width="270" height="260">
             <h3>Ольга Иванова</h3>
-            <p lang="en">Frontend Developer</p>
-            <ul>
-              <li>
-                <a href="" aria-label="Ссылка на Instagram" target="blank">Instagram</a>
+            <p lang="en" class="position">Frontend Developer</p>
+            <ul class="social list">
+              <li class="social-item">
+                <a href="" class="social-item-link list" aria-label="Ссылка на Instagram" target="blank">Instagram</a>
               </li>
-              <li>
-                <a href="" aria-label="Ссылка на Twitter" target="blank">Twitter</a>
+              <li class="social-item">
+                <a href="" class="social-item-link list" aria-label="Ссылка на Twitter" target="blank">Twitter</a>
               </li>
-              <li>
-                <a href="" aria-label="Ссылка на Facebook" target="blank">Facebook</a>
+              <li class="social-item">
+                <a href="" class="social-item-link list" aria-label="Ссылка на Facebook" target="blank">Facebook</a>
               </li>
-              <li>
-                <a href="" aria-label="Ссылка на LinkedIn" target="blank">LinkedIn</a>
+              <li class="social-item">
+                <a href="" class="social-item-link list" aria-label="Ссылка на LinkedIn" target="blank">LinkedIn</a>
               </li>
             </ul>
           </li>
           <!--Андрей Шевченко-->
-          <li>
+          <li class="our-team-list-item">
             <img
               src="./images/our-team-photos/andrii-shevchenko.jpg"
               alt="фото Андрея Шевченко"
               width="270" height="260">
             <h3>Андрей Шевченко</h3>
-            <p lang="en">Marketing</p>
-            <ul>
-              <li>
-                <a href="" aria-label="Ссылка на Instagram" target="blank">Instagram</a>
+            <p lang="en" class="position">Marketing</p>
+            <ul class="social list">
+              <li class="social-item">
+                <a href="" class="social-item-link list" aria-label="Ссылка на Instagram" target="blank">Instagram</a>
               </li>
-              <li>
-                <a href="" aria-label="Ссылка на Twitter" target="blank">Twitter</a>
+              <li class="social-item">
+                <a href="" class="social-item-link list" aria-label="Ссылка на Twitter" target="blank">Twitter</a>
               </li>
-              <li>
-                <a href="" aria-label="Ссылка на Facebook" target="blank">Facebook</a>
+              <li class="social-item">
+                <a href="" class="social-item-link list" aria-label="Ссылка на Facebook" target="blank">Facebook</a>
               </li>
-              <li>
-                <a href="" aria-label="Ссылка на LinkedIn" target="blank">LinkedIn</a>
+              <li class="social-item">
+                <a href="" class="social-item-link list" aria-label="Ссылка на LinkedIn" target="blank">LinkedIn</a>
               </li>
             </ul>
           </li>
           <!--Иван Николаев-->
-          <li>
+          <li class="our-team-list-item">
             <img
               src="./images/our-team-photos/ivan-nikolaev.jpg"
               alt="фото Ивана Николаева"
               width="270" height="260">
             <h3>Иван Николаев</h3>
-            <p lang="en">UI Designer</p>
-            <ul>
-              <li>
-                <a href="" aria-label="Ссылка на Instagram" target="blank">Instagram</a>
+            <p lang="en" class="position">UI Designer</p>
+            <ul class="social list">
+              <li class="social-item">
+                <a href="" class="social-item-link list" aria-label="Ссылка на Instagram" target="blank">Instagram</a>
               </li>
-              <li>
-                <a href="" aria-label="Ссылка на Twitter" target="blank">Twitter</a>
+              <li class="social-item">
+                <a href="" class="social-item-link list" aria-label="Ссылка на Twitter" target="blank">Twitter</a>
               </li>
-              <li>
-                <a href="" aria-label="Ссылка на Facebook" target="blank">Facebook</a>
+              <li class="social-item">
+                <a href="" class="social-item-link list" aria-label="Ссылка на Facebook" target="blank">Facebook</a>
               </li>
-              <li>
-                <a href="" aria-label="Ссылка на LinkedIn" target="blank">LinkedIn</a>
+              <li class="social-item">
+                <a href="" class="social-item-link list" aria-label="Ссылка на LinkedIn" target="blank">LinkedIn</a>
               </li>
             </ul>
           </li>
@@ -199,32 +199,37 @@
       </section>
 
       <!--Блок Постоянные клиенты-->
-      <section>
+      <section class="clients">
         <h2>Постоянные клиенты</h2>
-        <ul>
-          <li>
+        <ul class="clients-list list">
+          <li class="clients-list-item">
             <a href="" target="blank">
               <img src="./images/clients/logo-1.svg" alt="Логотип компании YA & GO">
             </a>
           </li>
-          <li>
+          <li class="clients-list-item">
             <a href="" target="blank">
-              <img src="./images/clients/logo-2.svg" alt="Логотип компании Company">
+              <img src="./images/clients/logo-2.svg" alt="Логотип компании Company Tagline Here">
             </a>
           </li>
-          <li>
+          <li class="clients-list-item">
             <a href="" target="blank">
-              <img src="./images/clients/logo-3.svg" alt="Логотип компании Foster Peters">
+              <img src="./images/clients/logo-3.svg" alt="Логотип компании Company">
             </a>
           </li>
-          <li>
+          <li class="clients-list-item">
             <a href="" target="blank">
-              <img src="./images/clients/logo-4.svg" alt="Логотип компании Brand">
+              <img src="./images/clients/logo-4.svg" alt="Логотип компании Foster Peters">
             </a>
           </li>
-          <li>
+          <li class="clients-list-item">
             <a href="" target="blank">
-              <img src="./images/clients/logo-5.svg" alt="Логотип компании Company Tag Line">
+              <img src="./images/clients/logo-5.svg" alt="Логотип компании Brand">
+            </a>
+          </li>
+          <li class="clients-list-item">
+            <a href="" target="blank">
+              <img src="./images/clients/logo-6.svg" alt="Логотип компании Company Tag Line">
             </a>
           </li>
         </ul>
@@ -232,44 +237,44 @@
     </main>
 
     <!--Подвал сайта-->
-    <footer>
+    <footer class="footer">
       <!--Лого и адрес-->
       <div>
-        <a href="./index.html"> Web Studio</a>
-        <address>
-          <ul>
-            <li><a href="https://goo.gl/maps/r3DYGoSErNJREdqL9" target="blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+380961111111">+380961111111</a></li>
+        <a class="footer-logo list" href="./index.html"> <span class="logo-web list">Web</span> Studio</a>
+        <address class="list">
+          <ul class="address list">
+            <li class="address-item"><a class="address-item-post list" href="https://goo.gl/maps/r3DYGoSErNJREdqL9" target="blank">г. Киев, пр-т Леси Украинки, 26</a></li>
+            <li class="address-item"><a class="address-item-email list" href="mailto:info@example.com">info@example.com</a></li>
+            <li class="address-item"><a class="address-item-phone list" href="tel:+380961111111">+380961111111</a></li>
           </ul>
         </address>
       </div>
 
       <!--Блок Присоединяйтесь-->
-      <div>
+      <div class="join">
         <b>Присоединяйтесь</b>
-        <ul>
-          <li>
-            <a href="" aria-label="Ссылка на Instagram" target="blank">Instagram</a>
+        <ul class="join-list list">
+          <li class="social-item">
+            <a class="social-item-link list" href="" aria-label="Ссылка на Instagram" target="blank">Instagram</a>
           </li>
-          <li>
-            <a href="" aria-label="Ссылка на Twitter" target="blank">Twitter</a>
+          <li class="social-item">
+            <a class="social-item-link list" href="" aria-label="Ссылка на Twitter" target="blank">Twitter</a>
           </li>
-          <li>
-            <a href="" aria-label="Ссылка на Facebook" target="blank">Facebook</a>
+          <li class="social-item">
+            <a class="social-item-link list" href="" aria-label="Ссылка на Facebook" target="blank">Facebook</a>
           </li>
-          <li>
-            <a href="" aria-label="Ссылка на LinkedIn" target="blank">LinkedIn</a>
+          <li class="social-item">
+            <a class="social-item-link list" href="" aria-label="Ссылка на LinkedIn" target="blank">LinkedIn</a>
           </li>
         </ul>
       </div>
 
       <!--Блок Подпишитесь на рассылку-->
-      <div>
+      <div class="subscribe">
         <b>Подпишитесь на рассылку</b>
-        <form method="post" action="URL">
+        <form class="subscribe-form" method="post" action="URL">
           <input type="text" placeholder="E-mail">
-          <input type="submit" value="Подписаться">
+          <input  class="btn-primary" type="submit" value="Подписаться">
         </form>
       </div>
     </footer>

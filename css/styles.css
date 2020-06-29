@@ -10,12 +10,162 @@
 основной цвет фона  #ffffff
 цвет фона футера #2F303A
 допллнительный цвет фона #F5F4FA
-фон полупрозрачных блоков rgba(47, 48, 58, 0.8); */
+фон полупрозрачных блоков rgba(47, 48, 58, 0.8);
+цвет футера #2F303A
 
+цвет неактивных рамочек: #AFB1B*/
 
+/* Общие стили */
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --dark-section-text-color: #ffffff;
+    --secondary-dark-section-text-color: rgba(255, 255, 255, 0.6);
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #F5F4FA;
+    --opacity-section-color: rgba(47, 48, 58, 0.8);
 
-body {
-    color: #212121;
-    background-color: #ffffff;
 }
 
+body {
+    color: var (--primary-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+    font-style: unset;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-text-color); 
+}
+
+/* СТИЛИ СТРАНИЦЫ СТУДИЯ */
+/* Шапка сайта */
+
+.logo {
+    color: var(--primary-text-color);
+}
+.logo-web {
+    color: var(--accent-color);
+}
+
+.nav-items a {
+    color: var(--primary-text-color);
+}
+
+.nav-items .nav-link:hover,
+.nav-items .nav-link:focus
+ {
+    color: var(--accent-color);
+}
+.nav-items .current {
+    color: var(--accent-color)
+}
+.contact-us a  {
+    color: var(--secondary-text-color);
+}
+.contact-us a:hover,
+.contact-us a:focus
+ {
+    color: var(--accent-color);
+}
+
+/* Секция-герой */
+.hero {
+    color: var(--dark-section-text-color);
+    background-color: var(--opacity-section-color);
+}
+
+.hero-title {
+    color: var(--dark-section-text-color);
+}
+
+.btn-primary {
+    color: var(--dark-section-text-color);
+    background-color: var(--accent-color);
+}
+    /* Секция Наши преимущества */
+.features-list-wrap {
+    background-color: var(--secondary-bg-color);
+}
+
+.features-list-description {
+    color: var(--secondary-text-color);
+}
+
+/* Секция Чем мы занимаемся */
+.fields-list-item {
+    background-color: var(--opacity-section-color);
+}
+.fields-list-item > h3 {
+    color: var(--dark-section-text-color);
+}
+
+/* Секция Наша команда */
+.our-team {
+    background-color: var(--secondary-bg-color);
+}
+
+.our-team-list-item {
+    background-color: var(--primary-bg-color);
+}
+.our-team-list-item .position {
+    color: var(--secondary-text-color);
+}
+
+.social-item:hover,
+.social-item:focus {
+    background-color: var(--accent-color);
+}
+
+.social-item-link:hover,
+.social-item-link:focus {
+    background-color: var(--accent-color);
+}
+
+.social-item-link {
+    color: var(--primary-text-color);
+}
+
+/* Секция Клиенты */
+.clients-list-item {
+    background-color: var(--primary-bg-color);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #AFB1B8;
+
+}
+.clients-list-item:hover,
+.clients-list-item:focus {
+    border-color: var(--accent-color); 
+}
+
+/* Подвальчик */
+.footer {
+    color: var(--dark-section-text-color);
+    background-color: #2F303A;
+}
+.footer-logo {
+    color: var(--dark-section-text-color);
+}
+.address-item-post {
+    color: var(--dark-section-text-color);
+}
+.address-item-email,
+.address-item-phone {
+  color: rgba(255, 255, 255, 0.6);  
+}
+.join-list > .social-item {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.join-list > .social-item:hover {
+    background-color: var(--accent-color);
+}
+/* КОНЕЦ СТИЛЕЙ СТРАНИЦЫ СТУДИЯ */
+
+/* СТИЛИ СТРАНИЦЫ ПОРТФОЛИО */
