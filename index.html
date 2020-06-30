@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title lang="en">Web Studio</title>
-    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
@@ -49,7 +49,7 @@
         <ul class="features-list list">
           <li>
             <div class="features-list-wrap"><img src="./images/advantages/antenna.svg" alt="Антенна" width="70" height="70"></div>
-            <h3>Внимание к деталям</h3>
+            <div class="features-list-title"><h3>Внимание к деталям</h3></div>
             <p class="features-list-description">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -57,7 +57,7 @@
           </li>
           <li>
             <div class="features-list-wrap"><img src="./images/advantages/clock.svg" alt="Часы" width="70" height="70"></div>
-            <h3>Пунктуальность</h3>
+            <div class="features-list-title"><h3>Пунктуальность</h3></div>
             <p class="features-list-description">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции. Задача организации, в особенности же рамки и
@@ -66,7 +66,7 @@
           </li>
           <li>
             <div class="features-list-wrap"><img src="./images/advantages/diagram.svg" alt="Ноутбук" width="70" height="70"></div>
-            <h3>Планирование</h3>
+            <div class="features-list-title"><h3>Планирование</h3></div>
             <p class="features-list-description">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -85,31 +85,31 @@
 
       <!--Чем мы занимаемся-->
       <section class="fields">
-        <h2>Чем мы занимаемся</h2>
+        <div class="fields-title"><h2>Чем мы занимаемся</h2></div>
         <ul class="fields-list list">
           <li>
             <img src="./images/what-we-do/laptop.jpg" alt="Ноутбук" width="370" height="294">
-            <div class="fields-list-item"><h3>Десктопные приложения</h3></div>
+            <h3 class="fields-list-title">Десктопные приложения</h3>
           </li>
           <li>
             <img src="./images/what-we-do/smartphone.jpg" alt="Мобильный телефон" width="370" height="294">
-            <div class="fields-list-item"><h3>Мобильные приложения</h3></div>
+            <h3 class="fields-list-title">Мобильные приложения</h3>
           </li>
           <li>
             <img src="./images/what-we-do/computer-monitor.jpg" alt="Монитор компьютера" width="370" height="294" >
-            <div class="fields-list-item"><h3>Дизайнерские решения</h3></div>
+            <h3 class="fields-list-title">Дизайнерские решения</h3>
           </li>
         </ul>
       </section>
 
       <!--Наша команда-->
       <section class="our-team">
-        <h2>Наша команда</h2>
+        <h2 class="our-team-title">Наша команда</h2>
         <ul class="our-team-list list">
           <!--Николай Кучеренко-->
           <li class="our-team-list-item">
             <img src="./images/our-team-photos/nikolay-kucherenko.jpg" alt="фото Николая Кучеренко" width="270" height="260">
-            <h3>Николай Кучеренко</h3>
+            <h3 class="worker-name">Николай Кучеренко</h3>
             <p lang="en" class="position">Product Designer</p>
               <ul class="social list">
                 <li class="social-item">
@@ -132,7 +132,7 @@
               src="./images/our-team-photos/olga-ivanova.jpg"
               alt="фото Ольги Ивановой"
               width="270" height="260">
-            <h3>Ольга Иванова</h3>
+            <h3 class="worker-name">Ольга Иванова</h3>
             <p lang="en" class="position">Frontend Developer</p>
             <ul class="social list">
               <li class="social-item">
@@ -155,7 +155,7 @@
               src="./images/our-team-photos/andrii-shevchenko.jpg"
               alt="фото Андрея Шевченко"
               width="270" height="260">
-            <h3>Андрей Шевченко</h3>
+            <h3 class="worker-name">Андрей Шевченко</h3>
             <p lang="en" class="position">Marketing</p>
             <ul class="social list">
               <li class="social-item">
@@ -178,7 +178,7 @@
               src="./images/our-team-photos/ivan-nikolaev.jpg"
               alt="фото Ивана Николаева"
               width="270" height="260">
-            <h3>Иван Николаев</h3>
+            <h3 class="worker-name">Иван Николаев</h3>
             <p lang="en" class="position">UI Designer</p>
             <ul class="social list">
               <li class="social-item">
@@ -252,7 +252,7 @@
 
       <!--Блок Присоединяйтесь-->
       <div class="join">
-        <b>Присоединяйтесь</b>
+        <b class="list">Присоединяйтесь</b>
         <ul class="join-list list">
           <li class="social-item">
             <a class="social-item-link list" href="" aria-label="Ссылка на Instagram" target="blank">Instagram</a>
@@ -271,7 +271,7 @@
 
       <!--Блок Подпишитесь на рассылку-->
       <div class="subscribe">
-        <b>Подпишитесь на рассылку</b>
+        <b class="list">Подпишитесь на рассылку</b>
         <form class="subscribe-form" method="post" action="URL">
           <input type="text" placeholder="E-mail">
           <input  class="btn-primary" type="submit" value="Подписаться">
