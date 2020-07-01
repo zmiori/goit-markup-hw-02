@@ -8,33 +8,33 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <!--Шапка Сайта-->
-    <header>
-      <!--Навигация-->
-      <nav>
-        <a href="./index.html" class="logo list"> <span class="logo-web list">Web</span> Studio</a>
-        <ul class="nav-items list">
-          <li><a href="./index.html" class="nav-link list ">Студия</a></li>
-          <li><a href="./portfolio.html" class="nav-link list current">Портфолио</a></li>
-          <li><a href="" class="nav-link list">Контакты</a></li>
-        </ul>
-      </nav>
-      <!--Email & Phone-->
-      <ul class="contact-us list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contact-us-email list">
-            <img src="./images/envelope.svg" alt="иконка конверта">
-            info@devstudio.com
-          </a>
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="contact-us-phone list">
-            <img src="./images/phone.svg" alt="иконка телефона">
-            +380961111111
-          </a>
-        </li>
-      </ul>
-    </header>
+<!--Шапка Сайта-->
+<header class="header">
+  <!--Навигация-->
+  <nav class="nav">
+    <a href="./index.html" class="logo list"> <span class="logo-web list">Web</span> Studio</a>
+    <ul class="nav-list list">
+      <li class="nav-list-item"><a href="./index.html" class="nav-list-item-link list current">Студия</a></li>
+      <li class="nav-list-item"><a href="./portfolio.html" class="nav-list-item-link list">Портфолио</a></li>
+      <li class="nav-list-item"><a href="" class="nav-list-item-link list">Контакты</a></li>
+    </ul>
+  </nav>
+  <!--Email & Phone-->
+  <ul class="contact-us list">
+    <li class="contact-us-item">
+      <a href="mailto:info@devstudio.com" class="contact-us-email list">
+        <img src="./images/envelope.svg" alt="иконка конверта">
+        info@devstudio.com
+      </a>
+    </li>
+    <li class="contact-us-item">
+      <a href="tel:+380961111111" class="contact-us-phone list">
+        <img src="./images/phone.svg" alt="иконка телефона">
+        +380961111111
+      </a>
+    </li>
+  </ul>
+</header>
       <!--Уникальный Контент страницы Портфолио-->
       <main>
           <!--Секция Портфолио-->
@@ -42,11 +42,11 @@
               <h1 hidden>Наше портфолио</h1>
               <!--Фильтры работ-->
               <ul class="gallery-filters list">
-                  <li><button class="gallery-filters-btn current" type="button">Все</button></li>
-                  <li><button class="gallery-filters-btn" type="button">Веб-сайты</button></li>
-                  <li><button class="gallery-filters-btn" type="button">Приложения</button></li>
-                  <li><button class="gallery-filters-btn" type="button">Дизайн</button></li>
-                  <li><button class="gallery-filters-btn" type="button">Маркетинг</button></li>
+                  <li class="gallery-filters-item"><button class="gallery-filters-item-btn current" type="button">Все</button></li>
+                  <li class="gallery-filters-item"><button class="gallery-filters-item-btn" type="button">Веб-сайты</button></li>
+                  <li class="gallery-filters-item"><button class="gallery-filters-item-btn" type="button">Приложения</button></li>
+                  <li class="gallery-filters-item"><button class="gallery-filters-item-btn" type="button">Дизайн</button></li>
+                  <li class="gallery-filters-item"><button class="gallery-filters-item-btn" type="button">Маркетинг</button></li>
               </ul>
               <!--Работы-->
               <ul class="gallery-works list">
@@ -111,46 +111,46 @@
           </section>
       </main>
       <!--Подвал сайта-->
-    <footer class="footer">
-      <!--Лого и адрес-->
-      <div>
-        <a class="footer-logo list" href="./index.html"> <span class="logo-web list">Web</span> Studio</a>
-        <address class="list">
-          <ul class="address list">
-            <li class="address-item"><a class="address-item-post list" href="https://goo.gl/maps/r3DYGoSErNJREdqL9" target="blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li class="address-item"><a class="address-item-email list" href="mailto:info@example.com">info@example.com</a></li>
-            <li class="address-item"><a class="address-item-phone list" href="tel:+380961111111">+380961111111</a></li>
+      <footer class="footer">
+        <!--Лого и адрес-->
+        <div>
+          <a class="footer-logo list" href="./index.html"> <span class="logo-web list">Web</span> Studio</a>
+          <address class="list">
+            <ul class="address list">
+              <li class="address-item"><a class="address-item-post list" href="https://goo.gl/maps/r3DYGoSErNJREdqL9" target="blank">г. Киев, пр-т Леси Украинки, 26</a></li>
+              <li class="address-item"><a class="address-item-email list" href="mailto:info@example.com">info@example.com</a></li>
+              <li class="address-item"><a class="address-item-phone list" href="tel:+380961111111">+380961111111</a></li>
+            </ul>
+          </address>
+        </div>
+  
+        <!--Блок Присоединяйтесь-->
+        <div class="join">
+          <b class="list">Присоединяйтесь</b>
+          <ul class="join-list list">
+            <li class="social-item">
+              <a class="social-item-link list" href="" aria-label="Ссылка на Instagram" target="blank">Instagram</a>
+            </li>
+            <li class="social-item">
+              <a class="social-item-link list" href="" aria-label="Ссылка на Twitter" target="blank">Twitter</a>
+            </li>
+            <li class="social-item">
+              <a class="social-item-link list" href="" aria-label="Ссылка на Facebook" target="blank">Facebook</a>
+            </li>
+            <li class="social-item">
+              <a class="social-item-link list" href="" aria-label="Ссылка на LinkedIn" target="blank">LinkedIn</a>
+            </li>
           </ul>
-        </address>
-      </div>
-
-      <!--Блок Присоединяйтесь-->
-      <div class="join">
-        <b>Присоединяйтесь</b>
-        <ul class="join-list list">
-          <li class="social-item">
-            <a class="social-item-link list" href="" aria-label="Ссылка на Instagram" target="blank">Instagram</a>
-          </li>
-          <li class="social-item">
-            <a class="social-item-link list" href="" aria-label="Ссылка на Twitter" target="blank">Twitter</a>
-          </li>
-          <li class="social-item">
-            <a class="social-item-link list" href="" aria-label="Ссылка на Facebook" target="blank">Facebook</a>
-          </li>
-          <li class="social-item">
-            <a class="social-item-link list" href="" aria-label="Ссылка на LinkedIn" target="blank">LinkedIn</a>
-          </li>
-        </ul>
-      </div>
-
-      <!--Блок Подпишитесь на рассылку-->
-      <div class="subscribe">
-        <b>Подпишитесь на рассылку</b>
-        <form class="subscribe-form" method="post" action="URL">
-          <input type="text" placeholder="E-mail">
-          <input  class="btn-primary" type="submit" value="Подписаться">
-        </form>
-      </div>
-    </footer>
+        </div>
+  
+        <!--Блок Подпишитесь на рассылку-->
+        <div class="subscribe">
+          <b class="list">Подпишитесь на рассылку</b>
+          <form class="subscribe-form" method="post" action="URL">
+            <input type="text" placeholder="E-mail">
+            <input  class="btn-primary" type="submit" value="Подписаться">
+          </form>
+        </div>
+      </footer>
 </body>
 </html>
