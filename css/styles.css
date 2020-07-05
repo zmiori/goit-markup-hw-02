@@ -38,7 +38,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.list {
+.style-none {
     list-style: none;
     text-decoration: none;
     font-style: unset;
