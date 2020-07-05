@@ -34,7 +34,7 @@ body {
     color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
 
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;
 }
 
@@ -65,7 +65,7 @@ b {
 .logo {
     color: var(--primary-text-color);
 
-    font-family: Raleway;
+    font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
